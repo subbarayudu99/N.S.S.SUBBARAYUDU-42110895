@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body{
+            text-align:center;
+            padding-top: 30px;   
+        }
+        table{
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            block-size: 500px;
+            
+            width: 550px;
+            background-color: rgb(228, 224, 224)
+        }
+        .group{
+            text-align: left;
+        }
+        .group .name{
+            padding-left: 20px;
+        }
+        .group input{
+            height: 50px;
+            width: 250px;
+        }
+        .group .date{
+            width: 250px;
+        }
+        .test {
+            height: 30px;
+            width: 100px;
+            background-color: rgb(212, 219, 223);
+        }
+        .rest {
+            height: 30px;
+            width: 100px;
+            background-color: rgb(20, 164, 66);
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h2 class="form">HTML FORM</h2>
+    <table>
+            <tr class="group">
+                <td class="name">First Name :</td>
+                <td><input type="text" placeholder="Enter the First Name"></td>
+            </tr>
+
+            <tr class="group">
+                <td class="name">Last Name :</td>
+                <td><input type="text" placeholder="Enter the Last Name"></td>
+            </tr>
+
+            <tr class="group">
+                <td class="name">Date of Birth :</td>
+                <td><input class="date" type="Date" name="Date of Birth"></td>
+            </tr>
+
+            <tr class="group">
+                <td class="name">Email :</td>
+                <td><input type="text" name="Email"></td>
+            </tr>
+
+            <tr class="group">
+                <td class="name">Phone Number :</td>
+                <td><input type="Number" id="Phone Number"></td>
+            </tr>
+        </table>
+
+       <div>
+        <button class="test" type="RESET">RESET</button>
+        <button class="rest" type="submit">SUBMIT</button>
+       </div>
+    </form>
+</body>
+</body>
+</html>
